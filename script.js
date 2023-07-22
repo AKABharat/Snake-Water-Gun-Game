@@ -3,6 +3,9 @@
 let ComputerScore = 0;
 let UserScore = 0;
 
+alert("lets see who wins! ");
+console.log("game started");
+
 let buttons = document.querySelectorAll("button");
 buttons.forEach(button => {
   button.addEventListener("click", () => {
@@ -52,3 +55,5 @@ function finalResult() {
 
 }
 
+console.log("game over");
+alert("refresh the website to play gain");
